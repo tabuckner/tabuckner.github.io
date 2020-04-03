@@ -5,7 +5,11 @@
     "ng": "ng",
     "start": "ng serve --ssl",
     "build": "ng build --prod --base-href=\"https://tabuckner.github.io\"",
+    "build:404": "cp ./docs/index.html ./docs/404.html",
     "build:prod": "yarn build && yarn scully:build && cp ./docs/index.html ./docs/404.html",
+    "clean:root": "yarn del ** !docs !node_modules !package* !yarn* !.git",
+    "clean:post-copy": "yarn del docs node_modules package* yarn*",
+    "copy:docs": "yarn cpx \"./docs/**/*\" \"./\" --preserve",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
@@ -43,6 +47,8 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
     "codelyzer": "^5.1.2",
+    "cpx": "^1.5.0",
+    "del-cli": "^3.0.0",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~4.3.0",
@@ -51,8 +57,10 @@
     "karma-jasmine": "~2.0.1",
     "karma-jasmine-html-reporter": "^1.4.2",
     "protractor": "~5.4.3",
+    "remove": "^0.1.5",
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
-    "typescript": "~3.7.5"
+    "typescript": "~3.7.5",
+    "yarn": "^1.22.4"
   }
 }
