@@ -13,7 +13,7 @@
       <mat-card class="mat-elevation-z3 projects__card">
         <div class="projects__project__hero">
           <div class="projects__project__title">{{ project.title }}</div>
-          <div class="projects__project__img">
+          <div class="projects__project__img" *ngIf="project?.imageUrl">
             <img src="" alt="">
           </div>
         </div>
