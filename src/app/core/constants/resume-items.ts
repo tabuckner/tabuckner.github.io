@@ -8,11 +8,11 @@ export const RESUME_ITEMS: ResumeItemModel[] = [
     years: 'May 2022 - Present',
     description: {
       items: [
-        'Regularly mentored more junior engineers by sharing domain-specific and general software design best practices in a weekly “brown bag” session.',
-        'Owned and drove Feature Development Lifecycle from loose requirements to completed feature by: forming cross-functional teams, designing high level software systems, establishing consensus on cross-component interfaces, removing blockers, and testing.',
-        'Improved Developer Experience by creating code generation tooling to align disparate coding standards across a large-scale, 3 year old React codebase.',
-        'Improved the new engineer onboarding process by refactoring existing code to more closely align with tried-and-true Software Design Patterns, removing layers of indirection, and following current React best practices.',
-        'Implemented a client-side feature-bound dynamic form service, complete with localized state engine.',
+        'Regularly mentored more junior engineers by sharing domain-specific and general software design best practices in a weekly “brown bag” session',
+        'Owned and drove Feature Development Lifecycle from loose requirements to completed feature by: forming cross-functional teams, designing high level software systems, establishing consensus on cross-component interfaces, removing blockers, and testing',
+        'Improved Developer Experience by creating code generation tooling to align disparate coding standards across a large-scale, 3 year old React codebase',
+        'Improved the new engineer onboarding process by refactoring existing code to more closely align with tried-and-true Software Design Patterns, removing layers of indirection, and following current React best practices',
+        'Implemented a client-side feature-bound dynamic form service, complete with localized state engine',
       ]
     }
   },
@@ -22,13 +22,13 @@ export const RESUME_ITEMS: ResumeItemModel[] = [
     years: 'July 2021 - May 2022',
     description: {
       items: [
-        'Managed a team of 5 direct reports including Backend and Frontend Engineers.',
-        'Owned the process of coordinating and implementing all initiatives across a continuum of products geared towards progressive customer adoption.',
-        'Coached direct reports up the career ladder and onto further success in new roles.',
-        'Continued to maintain the role of Lead Engineer for all web-based applications.',
-        'Worked directly with the Senior Management team to identify and delegate initiatives that aligned with business objectives.',
-        'Consulted with the Design department to continuously improve the design system I implemented in my prior role at the company.',
-        'Participated in Ceresa Leadership Mentor program.',
+        'Managed a team of 5 direct reports including Backend and Frontend Engineers',
+        'Owned the process of coordinating and implementing all initiatives across a continuum of products geared towards progressive customer adoption',
+        'Coached direct reports up the career ladder and onto further success in new roles',
+        'Continued to maintain the role of Lead Engineer for all web-based applications',
+        'Worked directly with the Senior Management team to identify and delegate initiatives that aligned with business objectives',
+        'Consulted with the Design department to continuously improve the design system I implemented in my prior role at the company',
+        'Participated in Ceresa Leadership Mentor program',
       ]
     }
   },
@@ -38,15 +38,15 @@ export const RESUME_ITEMS: ResumeItemModel[] = [
     years: 'June 2019 - July 2021',
     description: {
       items: [
-        'Project Lead and key contributor for Liquibase Hub, a web-based platform that served as the intersection between our suite of On-Prem and Open Source software.',
+        'Project Lead and key contributor for Liquibase Hub, a web-based platform that served as the intersection between our suite of On-Prem and Open Source software',
         'Key contributor to new architectural platform instrumental in our rebranding as Liquibase',
-        'Lead many Hackathon teams to great successes including an NPM wrapper around our core Open Source project, increasing our monthly active user base by >30,000.',
-        'Aligned the “look-and-feel” of our web applications through a prescriptive design system that improved Developer Velocity and Customer Experience.',
+        'Lead many Hackathon teams to great successes including an NPM wrapper around our core Open Source project, increasing our monthly active user base by >30,000',
+        'Aligned the “look-and-feel” of our web applications through a prescriptive design system that improved Developer Velocity and Customer Experience',
         'Refactored established software product built with Angular to see an 81% improvement in First Contentful Paint',
         'Authored a number of libraries (some of which were open sourced) to augment @angular/material component behaviors',
-        'Authored several blog posts detailing best practices for using Liquibase in a Node context.',
-        'Completed leadership course offered by MIT Sloan.',
-        'Maintained all web properties, provided consultation to internal teams, assisted in prototyping greenfield projects.',
+        'Authored several blog posts detailing best practices for using Liquibase in a Node context',
+        'Completed leadership course offered by MIT Sloan',
+        'Maintained all web properties, provided consultation to internal teams, assisted in prototyping greenfield projects',
       ]
     }
   },
@@ -56,10 +56,10 @@ export const RESUME_ITEMS: ResumeItemModel[] = [
     years: 'September 2017 - June 2019',
     description: {
       items: [
-        'Developed interactive “Stepper” and Chat feature for our Retail acquisition platform that served as the Customer’s portal into our Native and Web application system.',
-        'Maintained and eventually migrated legacy AngularJS Web Application.',
-        'Developed Backend services for delivering client-agnostic web content (Android, iOS and Web).',
-        'Developed Landing Pages and HTML email templates for annual industry events.',
+        'Developed interactive “Stepper” and Chat feature for our Retail acquisition platform that served as the Customer’s portal into our Native and Web application system',
+        'Maintained and eventually migrated legacy AngularJS Web Application',
+        'Developed Backend services for delivering client-agnostic web content (Android, iOS and Web)',
+        'Developed Landing Pages and HTML email templates for annual industry events',
         'Core contributor for Retail and Acquisition WebApp platforms',
         'Core contributor for web based disposition platform',
         'Authored BE service for delivering fully responsive client-agnostic web content',
