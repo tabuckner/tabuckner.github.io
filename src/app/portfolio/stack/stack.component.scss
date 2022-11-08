@@ -1,4 +1,4 @@
-@import "~@angular/material/theming";
+@use "sass:math";
 @import "_mixins.scss";
 @import "_functions.scss";
 
@@ -108,7 +108,7 @@ $cell-box-size: $cell-size + (2 * $cell-padding);
         background: $middle-blue;
         color: white;
         text-align: center;
-        padding: #{$cell-padding / 2};
+        padding: math.div($cell-padding, 2)
       }
     }
 

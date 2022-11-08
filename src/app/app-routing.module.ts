@@ -5,12 +5,11 @@ import { PortfolioModule } from './portfolio/portfolio.module';
 
 const routes: Routes = [
   { path: '', loadChildren: () => import('./portfolio/portfolio.module').then(m => m.PortfolioModule) },
-  { path: 'projects', loadChildren: () => import('./projects/projects.module').then(m => m.ProjectsModule) },
 ];
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(routes),
+    RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy' }),
     PortfolioModule
   ],
   exports: [RouterModule]
