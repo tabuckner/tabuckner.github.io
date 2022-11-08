@@ -3,27 +3,63 @@ import { ResumeItemModel } from '../interfaces/resume-item-model';
 
 export const RESUME_ITEMS: ResumeItemModel[] = [
   {
-    businessName: 'Datical, Inc',
-    position: 'Front End Developer',
-    years: 'June 2019 - Present',
+    businessName: 'Homeward',
+    position: 'Senior Software Engineer,',
+    years: 'May 2022 - Present',
     description: {
-      // simple: 'stop equal fully steady fish plant frozen animal plain great play take sale well needed hearing music dot church neighborhood political label became expect hot see element sail stepped sell decide knew two volume guard people helpful combination help castle camp short leg taste roll aside basic giant village jet snow fairly guess island putting deep nor weigh jack began heart bone sky for southern cabin hundred shout spend zoo snake would thrown',
       items: [
-        'Migrated legacy Angular app to Angular 8',
-        'Refactored WebApp to see an 81% improvement in First Contentful Paint',
-        'Authored a number of libraries (some of which were open sourced) to augment @angular/material component behaviors',
-        'Designed and built new MVP offering for centralized status and reporting',
-        'Key contributor to new architectural platform instrumental in our rebranding as Liquibase',
+        'Regularly mentored more junior engineers by sharing domain-specific and general software design best practices in a weekly “brown bag” session.',
+        'Owned and drove Feature Development Lifecycle from loose requirements to completed feature by: forming cross-functional teams, designing high level software systems, establishing consensus on cross-component interfaces, removing blockers, and testing.',
+        'Improved Developer Experience by creating code generation tooling to align disparate coding standards across a large-scale, 3 year old React codebase.',
+        'Improved the new engineer onboarding process by refactoring existing code to more closely align with tried-and-true Software Design Patterns, removing layers of indirection, and following current React best practices.',
+        'Implemented a client-side feature-bound dynamic form service, complete with localized state engine.',
       ]
     }
   },
   {
-    businessName: 'The Appraisal Lane, LLC',
+    businessName: 'Liquibase',
+    position: 'Manager of Front End Development',
+    years: 'July 2021 - May 2022',
+    description: {
+      items: [
+        'Managed a team of 5 direct reports including Backend and Frontend Engineers.',
+        'Owned the process of coordinating and implementing all initiatives across a continuum of products geared towards progressive customer adoption.',
+        'Coached direct reports up the career ladder and onto further success in new roles.',
+        'Continued to maintain the role of Lead Engineer for all web-based applications.',
+        'Worked directly with the Senior Management team to identify and delegate initiatives that aligned with business objectives.',
+        'Consulted with the Design department to continuously improve the design system I implemented in my prior role at the company.',
+        'Participated in Ceresa Leadership Mentor program.',
+      ]
+    }
+  },
+  {
+    businessName: 'Liquibase (formerly Datical)',
+    position: 'Front End Developer',
+    years: 'June 2019 - July 2021',
+    description: {
+      items: [
+        'Project Lead and key contributor for Liquibase Hub, a web-based platform that served as the intersection between our suite of On-Prem and Open Source software.',
+        'Key contributor to new architectural platform instrumental in our rebranding as Liquibase',
+        'Lead many Hackathon teams to great successes including an NPM wrapper around our core Open Source project, increasing our monthly active user base by >30,000.',
+        'Aligned the “look-and-feel” of our web applications through a prescriptive design system that improved Developer Velocity and Customer Experience.',
+        'Refactored established software product built with Angular to see an 81% improvement in First Contentful Paint',
+        'Authored a number of libraries (some of which were open sourced) to augment @angular/material component behaviors',
+        'Authored several blog posts detailing best practices for using Liquibase in a Node context.',
+        'Completed leadership course offered by MIT Sloan.',
+        'Maintained all web properties, provided consultation to internal teams, assisted in prototyping greenfield projects.',
+      ]
+    }
+  },
+  {
+    businessName: 'The Appraisal Lane',
     position: 'Front End Developer',
     years: 'September 2017 - June 2019',
     description: {
-      // simple: 'film amount charge possible creature scientific process sudden lungs obtain back nice rubber school giant include line solve guess rich screen chose smell suggest weak smallest dance roll replied deal recall behavior is measure per south boat unknown near wife garage lot fell dig complex rope crew ancient lovely effect can see use yet cake finger wool night lion directly sea stuck surface air situation unknown did every moving older trap point garden',
       items: [
+        'Developed interactive “Stepper” and Chat feature for our Retail acquisition platform that served as the Customer’s portal into our Native and Web application system.',
+        'Maintained and eventually migrated legacy AngularJS Web Application.',
+        'Developed Backend services for delivering client-agnostic web content (Android, iOS and Web).',
+        'Developed Landing Pages and HTML email templates for annual industry events.',
         'Core contributor for Retail and Acquisition WebApp platforms',
         'Core contributor for web based disposition platform',
         'Authored BE service for delivering fully responsive client-agnostic web content',
@@ -35,11 +71,10 @@ export const RESUME_ITEMS: ResumeItemModel[] = [
     }
   },
   {
-    businessName: 'The Appraisal Lane, LLC',
-    position: 'Employee',
+    businessName: 'The Appraisal Lane',
+    position: 'Support/QA Developer',
     years: 'May 2017 - September 2017',
     description: {
-      // simple: 'say toy park behavior mouth screen star practice great fierce cross product both shout root metal deeply whale waste death roof wolf mission triangle species brown free canal seldom dirty refused measure toward book asleep train underline lie leg terrible greatly lost toy speech using worker please tea low wrapped deeply correctly title rice won slightly refused tree receive story alike foreign made solid rising breathe hard particular bright wait egg hall tune',
       items: [
         'Developed automated E2E test suites for new retail product',
         'Developed and Deployed an E2E test result notification Hipchat (and later) Slack bot',
@@ -57,7 +92,6 @@ export const RESUME_ITEMS: ResumeItemModel[] = [
     position: 'AR Specialist',
     years: 'September 2016 - May 2017',
     description: {
-      // simple: 'shape regular tomorrow luck weight congress shop grown score nearby but cage over total pen music fill southern pound aboard color gun using valuable studying women necessary sang shown mighty question stove rhyme brief dance wide personal examine outside sing setting born fairly through beautiful sentence hidden thick luck gain twelve musical finest fairly onto problem castle topic cabin correct yellow fog darkness blanket dangerous molecular act told apple brother card cat universe',
       items: [
         'Developed Excel VBA macro for auditing monthly billing invoices',
         'Worked with Business Development department leads to automate our most common billing scenarios',
@@ -99,7 +133,6 @@ export const RESUME_ITEMS: ResumeItemModel[] = [
     position: 'Client Satisfaction Professional',
     years: 'February 2014 - April 2014',
     description: {
-      // simple: 'owner town thou came rule someone also earth period drew mainly body corner truth contain land game act wolf throughout shut personal reader smallest older possible interest sure buried remain serious sail east quite peace facing cannot beauty horse such species buy human widely nearest little habit entirely fruit how stand thee climate closely slabs express wear object leave molecular complete art boat railroad ask if afternoon this signal fresh pencil poor living',
       items: [
         'One of three team leads for a training class of roughly 20',
         'Developed a handful of web-based tools for sharing techniques/tips/tricks',
@@ -108,11 +141,10 @@ export const RESUME_ITEMS: ResumeItemModel[] = [
     }
   },
   {
-    businessName: 'Open Labs, LLC',
+    businessName: 'Open Labs',
     position: 'RMA Technician',
     years: '2012 - 2014',
     description: {
-      // simple: 'In college I was recommended for an internship at the Austin Based music technology company Open Labs.',
       items: [
         'Used downtime and after hours to help QA their Interactive Music Creation Software, Stagelight (now Roland Zenbeats)',
         'Authored deployment scripts to help quickly churn out new hardware builds',
