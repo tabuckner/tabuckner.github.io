@@ -12,28 +12,28 @@
 
 // MD Palette Helper
 // FIXME: Fix issues caused by uncommenting.
-// @import "~mdp-sass/mdp-sass";
+@import "~mdp-sass/mdp-sass";
 
-// // Define the palettes for your theme using the Material Design palettes available in palette.scss
-// // (imported above). For each palette, you can optionally specify a default, lighter, and darker
-// // hue. Available color palettes: https://material.io/design/color/
-// $portfolio-primary: mat-palette(get-mat-palette($primary));
-// $portfolio-accent: mat-palette(get-mat-palette($secondary));
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+$portfolio-primary: mat.define-palette(get-mat-palette($primary));
+$portfolio-accent: mat.define-palette(get-mat-palette($secondary));
 
-// // The warn palette is optional (defaults to red).
-// $portfolio-warn: mat-palette($mat-red);
+// The warn palette is optional (defaults to red).
+$portfolio-warn: mat.define-palette(mat.$red-palette);
 
-// // Create the theme object (a Sass map containing all of the palettes).
-// $portfolio-theme: mat-light-theme(
-//   $portfolio-primary,
-//   $portfolio-accent,
-//   $portfolio-warn
-// );
+// Create the theme object (a Sass map containing all of the palettes).
+$portfolio-theme: mat.define-light-theme(
+  $portfolio-primary,
+  $portfolio-accent,
+  $portfolio-warn
+);
 
-// // Include theme styles for core and each component used in your app.
-// // Alternatively, you can import and @include the theme mixins for each component
-// // that you are using.
-// @include angular-material-theme($portfolio-theme);
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include mat.all-component-themes($portfolio-theme);
 
 /* You can add global styles to this file, and also import other style files */
 
