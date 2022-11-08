@@ -4,7 +4,7 @@ import { ResumeItemModel } from '../interfaces/resume-item-model';
 export const RESUME_ITEMS: ResumeItemModel[] = [
   {
     businessName: 'Homeward',
-    position: 'Senior Software Engineer,',
+    position: 'Senior Software Engineer',
     years: 'May 2022 - Present',
     description: {
       items: [
