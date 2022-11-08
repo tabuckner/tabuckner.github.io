@@ -5,21 +5,25 @@ export const PROJECT_ITEMS: ProjectItemModel[] = [
     title: 'Material-DayJs-Adapter',
     description: 'A DayJs based datepicker adapter for the @angular/material library that significantly reduces dependency size.',
     sourceUrl: 'https://github.com/tabuckner/material-dayjs-adapter',
+    demoUrl: 'https://angular.io/resources?category=development#:~:text=material%2Ddayjs%2Dadapter'
   },
   {
     title: 'MDP Sass',
     description: 'A SASS/SCSS helper for generating an @angular/material compatible Material Pallette. Useful for custom themes.',
     sourceUrl: 'https://github.com/tabuckner/mdp-sass',
+    demoUrl: 'https://stackblitz.com/edit/angular-ivy-ddtzum?file=src/styles.scss'
   },
   {
     title: 'Lazy VIN Lib',
     description: 'A zero-dependency TypeScript based library for generating and validating random VIN numbers.',
     sourceUrl: 'https://github.com/tabuckner/lazy-vin-lib',
+    demoUrl: 'https://stackblitz.com/edit/lazy-vin-lib-demo?file=src%2Fapp%2Fapp.component.ts'
   },
   {
     title: 'Doggo-Translator-TS',
     description: 'A small library for synchronously translating strings and string-partials in to \'doggo\'.',
     sourceUrl: 'https://github.com/tabuckner/doggo-translator-ts',
+    demoUrl: 'https://stackblitz.com/edit/react-ts-2hqzlh?file=App.tsx'
   },
   {
     title: 'Chimes',
@@ -42,11 +46,13 @@ export const PROJECT_ITEMS: ProjectItemModel[] = [
     title: 'Random Contrast Compliant TS',
     description: 'TypeScript helper for generating random colors that meet a user-defined WCAG 2.0 contrast compliance level.',
     sourceUrl: 'https://github.com/tabuckner/random-contrast-compliant-ts',
+    demoUrl: 'https://stackblitz.com/edit/react-ts-npanwi?file=App.tsx'
   },
   {
     title: 'Spongebob Case',
     description: 'A tiny, zero-dependency library for converting strings into ThE PoPuLaR MeMe CaSe!',
     sourceUrl: 'https://github.com/tabuckner/spongebob-case',
+    demoUrl: 'https://stackblitz.com/edit/angular-wpb9a4?file=src%2Fapp%2Fapp.component.ts'
   },
   {
     title: 'Gulp Materialize',
