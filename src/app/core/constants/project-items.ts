@@ -69,6 +69,7 @@ export const PROJECT_ITEMS: ProjectItemModel[] = [
     title: 'Time Tracker',
     description: 'A tiny anonymously authenticated web app for tracking time punches.',
     sourceUrl: 'https://github.com/tabuckner/time-tracker',
+    demoUrl: 'https://tabuckner.github.io/time-tracker/'
   },
   {
     title: 'Jenkins Sucks',
