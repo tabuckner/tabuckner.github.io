@@ -1,14 +1,9 @@
 export const ABOUT_ITEMS: Array<string> = [
-  `I've been lucky enough to finally find a career path that doesn't feel like work. Every day I get to wake up and
-  get paid to do what I love. That's so rare these days, and I know exactly what it's like to wake up and dread
-  going to your job.`,
-  `In the early 2000s I started dabbling with web development--even published a couple of sites, but I never really
-  thought I would be good enough to make a career out of it. I kind of always assumed you had to be a genius to get
-  into development, but the fact is that's just not true.`,
-  `At my early-career companies I would often find myself annoyed with stupid processes and hack together some sort of
-  tool that would help automate the process in some way. Those were the only real fulfilling times in those roles, I
-  didn't know much potential I had in that area.`,
-  `Out of pure luck, a friend recommended me as an early hire at a startup where I worked under who would later become my
-  mentor and friend. He saw that potential in me, and with a some encouragement and coaching helped me move into my
-  first full time development role.`
+  `I've been lucky enough to finally find a career path that doesn't feel like work. Every day I get to wake up and get paid to do what I love. That's so rare these days, and I know exactly what it's like to wake up and dread going to your job.`,
+  `In the early 2000s I started dabbling with web development--even published a couple of sites, but I never really anticipated that I would be able to make a career out of it. I always assumed you had to be a genius or math-whiz to get into Software Engineering, but that's simply untrue.`,
+  `At my early-career organizations I would often find myself annoyed with stupid processes, and would hack together some sort of tool that automate the process. These were the moments in my career that I found the most joy and fulfillment. I had found a way to combine my love of helping others, and my innate laziness with my love for creative arts. The end result: Software that helped my friends!`,
+  `Out of pure luck, a friend recommended me as an early hire at a startup (The Appraisal Lane) where I worked directly alongside the co-founders. One co-founder took a particular liking to me, and took me under his wing. He saw my potential to become a great Software Engineer, and took it upon himself to help teach me everything he could.`,
+  'Under his tutorship, I started to learn about Design, Product Development, and Software Engineering. I spent all of my free time cramming as much about these topics as I could, and in a few months I found myself in my first Full-Time Software Engineering role. I was totally and completely hooked!',
+  `Since leaving that organization, I've taken several other roles with increasingly more demanding responsibilities. I've been "THE Front End Guy", the Designer, a Technical Leader, a People Manager, an Innovator, a Developer Advocate, and the list is growing. I'm a life-long learner, and I have no plans of slowing down!`,
+  `These days, I choose to dedicate a little less of my personal time to myself, and opt to invest that time into my family. Family is everything to me, but Software is certainly a close second! That said, Software is truly my passion and I'm more grateful than ever that I get to do what I love for a living.`
 ];
