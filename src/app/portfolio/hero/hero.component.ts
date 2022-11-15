@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HERO_TEXT } from '../../core/constants/hero-text';
 
 @Component({
   selector: 'app-hero',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hero.component.scss']
 })
 export class HeroComponent implements OnInit {
+  public heroText: string = HERO_TEXT;
 
   constructor() { }
 
