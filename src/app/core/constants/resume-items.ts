@@ -3,16 +3,30 @@ import { ResumeItemModel } from '../interfaces/resume-item-model';
 
 export const RESUME_ITEMS: ResumeItemModel[] = [
   {
-    businessName: 'Homeward',
-    position: 'Senior Software Engineer',
-    years: 'May 2022 - Present',
+    businessName: 'Trupropel',
+    position: 'Senior Software Engineer, Front End',
+    years: 'November 2022 - November 2023',
     description: {
       items: [
-        'Regularly mentored more junior engineers by sharing domain-specific and general software design best practices in a weekly “brown bag” session',
-        'Owned and drove Feature Development Lifecycle from loose requirements to completed feature by: forming cross-functional teams, designing high level software systems, establishing consensus on cross-component interfaces, removing blockers, and testing',
-        'Improved Developer Experience by creating code generation tooling to align disparate coding standards across a large-scale, 3 year old React codebase',
-        'Improved the new engineer onboarding process by refactoring existing code to more closely align with tried-and-true Software Design Patterns, removing layers of indirection, and following current React best practices',
-        'Implemented a client-side feature-bound dynamic form service, complete with localized state engine',
+        'Consultant and team augmentation for automotive technology clients',
+        'Lead bi-weekly internal best practices discussions for FE engineers at Trupropel',
+        'Mentored more junior teammates in best practices and system design',
+        'Aligned coding standards across client projects',
+        'Codified and published internal Style Guide and Best Practices documentation',
+      ]
+    }
+  },
+  {
+    businessName: 'Homeward',
+    position: 'Senior Software Engineer, Front End',
+    years: 'May 2022 - November 2022',
+    description: {
+      items: [
+        'Hosted weekly mentorship luncheons to teach Web Development best practices',
+        'Formed Scrum teams, designed high level software systems & mentored peers',
+        'Improved developer velocity and standardized codebase by creating a code generation toolchain',
+        'Aligned legacy codebase with tried-and-true Software Design Patterns, and implementing current day React best-practices',
+        'Implemented a client-side dynamic form service with a localized state engine',
       ]
     }
   },
@@ -22,36 +36,32 @@ export const RESUME_ITEMS: ResumeItemModel[] = [
     years: 'July 2021 - May 2022',
     description: {
       items: [
-        'Managed a team of 5 direct reports including Backend and Frontend Engineers',
-        'Owned the process of coordinating and implementing all initiatives across a continuum of products geared towards progressive customer adoption',
-        'Coached direct reports up the career ladder and onto further success in new roles',
-        'Continued to maintain the role of Lead Engineer for all web-based applications',
-        'Worked directly with the Senior Management team to identify and delegate initiatives that aligned with business objectives',
-        'Consulted with the Design department to continuously improve the design system I implemented in my prior role at the company',
-        'Participated in Ceresa Leadership Mentor program',
+        'Worked with the Senior Management to identify business objectives',
+        'Hired and managed a team of Backend and Front End Engineers for a new product',
+        'Coached direct reports onto further success in higher roles',
+        'Maintained the role of Subject Matter Expert for all web-based applications',
       ]
     }
   },
   {
-    businessName: 'Liquibase (formerly Datical)',
+    businessName: 'Liquibase',
     position: 'Front End Developer',
     years: 'June 2019 - July 2021',
     description: {
       items: [
-        'Project Lead and key contributor for Liquibase Hub, a web-based platform that served as the intersection between our suite of On-Prem and Open Source software',
-        'Key contributor to new architectural platform instrumental in our rebranding as Liquibase',
-        'Lead many Hackathon teams to great successes including an NPM wrapper around our core Open Source project, increasing our monthly active user base by >30,000',
-        'Aligned the “look-and-feel” of our web applications through a prescriptive design system that improved Developer Velocity and Customer Experience',
-        'Refactored established software product built with Angular to see an 81% improvement in First Contentful Paint',
-        'Authored a number of libraries (some of which were open sourced) to augment @angular/material component behaviors',
-        'Authored several blog posts detailing best practices for using Liquibase in a Node context',
+        'Increased monthly users by >30k by developing a Node wrapper for our CLI',
+        'Authored an Angular Core extension that reduces the bundle size for applications that work with time data by ~40%; currently listed on the Angular.IO website',
+        'Implemented a standardized design system across our suite of products',
+        'Project Lead and key contributor for Liquibase Hub, a web-based platform that unified our suite of On-Prem and Open Source software',
+        'Refactored Web Application to see an 81% improvement in performance',
+        'Authored blog posts detailing best practices for using Liquibase in a Node context',
+        'Migrated legacy Angular 2 application to Angular 12+',
         'Completed leadership course offered by MIT Sloan',
-        'Maintained all web properties, provided consultation to internal teams, assisted in prototyping greenfield projects',
       ]
     }
   },
   {
-    businessName: 'The Appraisal Lane',
+    businessName: 'The Appraisal Lane (acquired 2019)',
     position: 'Front End Developer',
     years: 'September 2017 - June 2019',
     description: {
@@ -60,18 +70,15 @@ export const RESUME_ITEMS: ResumeItemModel[] = [
         'Maintained and eventually migrated legacy AngularJS Web Application',
         'Developed Backend services for delivering client-agnostic web content (Android, iOS and Web)',
         'Developed Landing Pages and HTML email templates for annual industry events',
-        'Core contributor for Retail and Acquisition WebApp platforms',
-        'Core contributor for web based disposition platform',
-        'Authored BE service for delivering fully responsive client-agnostic web content',
-        'Refactored Retail web app layout for responsive design',
-        'Authored photo upload service for retail web app',
-        'Implemented live chat service in retail web app',
-        'Implemented live progress updates in retail platform'
+        'Authored BE service for delivering fully responsive & client-agnostic web content',
+        'Authored photo upload service',
+        'Implemented live chat service',
+        'Implemented live progress tracker for appraisal process'
       ]
     }
   },
   {
-    businessName: 'The Appraisal Lane',
+    businessName: 'The Appraisal Lane (acquired 2019)',
     position: 'Support/QA Developer',
     years: 'May 2017 - September 2017',
     description: {

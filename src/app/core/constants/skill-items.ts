@@ -10,6 +10,12 @@ export const SKILL_ITEMS: SkillItemModel[] = [
     preference: PreferenceLevels.best
   },
   {
+    name: 'React',
+    imageUrl: '/assets/img/skills/react.png',
+    experience: ExperienceLevels.better,
+    preference: PreferenceLevels.better
+  },
+  {
     name: 'Angular',
     imageUrl: '/assets/img/skills/angular.svg',
     experience: ExperienceLevels.best,
@@ -92,12 +98,6 @@ export const SKILL_ITEMS: SkillItemModel[] = [
     imageUrl: '/assets/img/skills/nuxt.svg',
     experience: ExperienceLevels.average,
     preference: PreferenceLevels.good
-  },
-  {
-    name: 'ReactJS',
-    imageUrl: '/assets/img/skills/react.png',
-    experience: ExperienceLevels.average,
-    preference: PreferenceLevels.average
   },
   {
     name: 'Protractor',
