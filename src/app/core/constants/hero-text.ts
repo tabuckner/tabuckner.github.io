@@ -1,1 +1,0 @@
-export const HERO_TEXT: string = "Full-Time Nerd; Part-Time Cool-Guy. Engineering leader, AI tooling enthusiast, and open-source contributor. Loves building simple, useful apps and helping teams ship their best work. Still has difficulty accepting 'impossible'.";
