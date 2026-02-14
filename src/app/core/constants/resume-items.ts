@@ -50,18 +50,15 @@ export const RESUME_ITEMS: ResumeItemModel[] = [
     years: 'July 2021 - May 2022',
     description: {
       items: [
-        'Managed a team of 5 direct reports including Backend and Frontend Engineers',
-        'Owned the process of coordinating and implementing all initiatives across a continuum of products geared towards progressive customer adoption',
-        'Coached direct reports up the career ladder and onto further success in new roles',
-        'Continued to maintain the role of Lead Engineer for all web-based applications',
-        'Worked directly with the Senior Management team to identify and delegate initiatives that aligned with business objectives',
-        'Consulted with the Design department to continuously improve the design system I implemented in my prior role at the company',
-        'Participated in Ceresa Leadership Mentor program',
+        'Worked with the Senior Management to identify business objectives',
+        'Hired and managed a team of Backend and Front End Engineers for a new product',
+        'Coached direct reports onto further success in higher roles',
+        'Maintained the role of Subject Matter Expert for all web-based applications',
       ]
     }
   },
   {
-    businessName: 'Liquibase (formerly Datical)',
+    businessName: 'Liquibase',
     position: 'Front End Developer',
     years: 'June 2019 - July 2021',
     description: {
@@ -77,7 +74,7 @@ export const RESUME_ITEMS: ResumeItemModel[] = [
     }
   },
   {
-    businessName: 'The Appraisal Lane',
+    businessName: 'The Appraisal Lane (acquired 2019)',
     position: 'Front End Developer',
     years: 'May 2017 - June 2019',
     description: {
