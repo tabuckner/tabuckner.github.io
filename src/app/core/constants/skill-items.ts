@@ -10,10 +10,22 @@ export const SKILL_ITEMS: SkillItemModel[] = [
     preference: PreferenceLevels.best
   },
   {
-    name: 'React',
+    name: 'ReactJS',
     imageUrl: '/assets/img/skills/react.png',
-    experience: ExperienceLevels.better,
-    preference: PreferenceLevels.better
+    experience: ExperienceLevels.best,
+    preference: PreferenceLevels.best
+  },
+  {
+    name: 'Next.js',
+    imageUrl: '/assets/img/skills/nextjs.svg',
+    experience: ExperienceLevels.best,
+    preference: PreferenceLevels.best
+  },
+  {
+    name: 'Claude Code / AI Tooling',
+    imageUrl: '/assets/img/skills/claude-ai.svg',
+    experience: ExperienceLevels.best,
+    preference: PreferenceLevels.best
   },
   {
     name: 'Angular',
@@ -28,16 +40,16 @@ export const SKILL_ITEMS: SkillItemModel[] = [
     preference: PreferenceLevels.best
   },
   {
-    name: 'SASS/SCSS',
-    imageUrl: '/assets/img/skills/sass.png',
+    name: 'NestJS',
+    imageUrl: '/assets/img/skills/nest-js.svg',
     experience: ExperienceLevels.best,
     preference: PreferenceLevels.best
   },
   {
-    name: 'RxJS',
-    imageUrl: '/assets/img/skills/rxjs.svg',
-    experience: ExperienceLevels.better,
-    preference: PreferenceLevels.better
+    name: 'SASS/SCSS',
+    imageUrl: '/assets/img/skills/sass.png',
+    experience: ExperienceLevels.best,
+    preference: PreferenceLevels.best
   },
   {
     name: 'ES Next JavaScript',
@@ -46,22 +58,40 @@ export const SKILL_ITEMS: SkillItemModel[] = [
     preference: PreferenceLevels.better
   },
   {
-    name: 'NestJS',
-    imageUrl: '/assets/img/skills/nest-js.svg',
-    experience: ExperienceLevels.better,
-    preference: PreferenceLevels.best
-  },
-  {
     name: 'NodeJS',
     imageUrl: '/assets/img/skills/node.svg',
     experience: ExperienceLevels.better,
     preference: PreferenceLevels.best
   },
   {
-    name: 'Ionic',
-    imageUrl: '/assets/img/skills/ionic.png',
+    name: 'PostgreSQL',
+    imageUrl: '/assets/img/skills/postgresql.svg',
     experience: ExperienceLevels.better,
-    preference: PreferenceLevels.good
+    preference: PreferenceLevels.better
+  },
+  {
+    name: 'GraphQL',
+    imageUrl: '/assets/img/skills/graphql.svg',
+    experience: ExperienceLevels.better,
+    preference: PreferenceLevels.better
+  },
+  {
+    name: 'Cypress',
+    imageUrl: '/assets/img/skills/cypress.svg',
+    experience: ExperienceLevels.better,
+    preference: PreferenceLevels.better
+  },
+  {
+    name: 'GitHub Copilot',
+    imageUrl: '/assets/img/skills/github-copilot.svg',
+    experience: ExperienceLevels.better,
+    preference: PreferenceLevels.better
+  },
+  {
+    name: 'RxJS',
+    imageUrl: '/assets/img/skills/rxjs.svg',
+    experience: ExperienceLevels.better,
+    preference: PreferenceLevels.better
   },
   {
     name: 'Jest',
@@ -72,79 +102,19 @@ export const SKILL_ITEMS: SkillItemModel[] = [
   {
     name: 'Python',
     imageUrl: '/assets/img/skills/python.png',
-    experience: ExperienceLevels.average,
+    experience: ExperienceLevels.better,
     preference: PreferenceLevels.good
   },
   {
-    name: 'Socket.IO',
-    imageUrl: '/assets/img/skills/socket-io.svg',
-    experience: ExperienceLevels.average,
-    preference: PreferenceLevels.better
-  },
-  {
-    name: 'Vue',
-    imageUrl: '/assets/img/skills/vue.png',
-    experience: ExperienceLevels.average,
-    preference: PreferenceLevels.better
-  },
-  {
-    name: 'Scully',
-    imageUrl: '/assets/img/skills/scully.png',
-    experience: ExperienceLevels.average,
-    preference: PreferenceLevels.best
-  },
-  {
-    name: 'Nuxt.JS',
-    imageUrl: '/assets/img/skills/nuxt.svg',
-    experience: ExperienceLevels.average,
+    name: 'Docker',
+    imageUrl: '/assets/img/skills/docker.svg',
+    experience: ExperienceLevels.better,
     preference: PreferenceLevels.good
-  },
-  {
-    name: 'Protractor',
-    imageUrl: '/assets/img/skills/protractor.png',
-    experience: ExperienceLevels.best,
-    preference: PreferenceLevels.best
   },
   {
     name: 'JWT Based Auth',
     imageUrl: '/assets/img/skills/jwt.png',
     experience: ExperienceLevels.better,
-    preference: PreferenceLevels.better
-  },
-  {
-    name: 'Firebase',
-    imageUrl: '/assets/img/skills/firebase.png',
-    experience: ExperienceLevels.good,
-    preference: PreferenceLevels.better
-  },
-  {
-    name: 'Gulp',
-    imageUrl: '/assets/img/skills/gulp.png',
-    experience: ExperienceLevels.better,
-    preference: PreferenceLevels.better
-  },
-  {
-    name: 'Webpack',
-    imageUrl: '/assets/img/skills/webpack.png',
-    experience: ExperienceLevels.better,
-    preference: PreferenceLevels.average
-  },
-  {
-    name: 'Pug/Jade',
-    imageUrl: '/assets/img/skills/pug.png',
-    experience: ExperienceLevels.best,
-    preference: PreferenceLevels.best
-  },
-  {
-    name: 'Figma',
-    imageUrl: '/assets/img/skills/figma.svg',
-    experience: ExperienceLevels.good,
-    preference: PreferenceLevels.best
-  },
-  {
-    name: 'MongoDB',
-    imageUrl: '/assets/img/skills/mongo.png',
-    experience: ExperienceLevels.good,
     preference: PreferenceLevels.better
   },
   {
@@ -158,6 +128,54 @@ export const SKILL_ITEMS: SkillItemModel[] = [
     imageUrl: '/assets/img/skills/flask.png',
     experience: ExperienceLevels.better,
     preference: PreferenceLevels.better
+  },
+  {
+    name: 'Figma',
+    imageUrl: '/assets/img/skills/figma.svg',
+    experience: ExperienceLevels.good,
+    preference: PreferenceLevels.best
+  },
+  {
+    name: 'AWS',
+    imageUrl: '/assets/img/skills/aws.svg',
+    experience: ExperienceLevels.good,
+    preference: PreferenceLevels.good
+  },
+  {
+    name: 'AWS Lambda',
+    imageUrl: '/assets/img/skills/aws-lambda.svg',
+    experience: ExperienceLevels.good,
+    preference: PreferenceLevels.good
+  },
+  {
+    name: 'Redis',
+    imageUrl: '/assets/img/skills/redis.svg',
+    experience: ExperienceLevels.good,
+    preference: PreferenceLevels.good
+  },
+  {
+    name: 'Vue',
+    imageUrl: '/assets/img/skills/vue.png',
+    experience: ExperienceLevels.average,
+    preference: PreferenceLevels.better
+  },
+  {
+    name: 'MongoDB',
+    imageUrl: '/assets/img/skills/mongo.png',
+    experience: ExperienceLevels.good,
+    preference: PreferenceLevels.better
+  },
+  {
+    name: 'Firebase',
+    imageUrl: '/assets/img/skills/firebase.png',
+    experience: ExperienceLevels.good,
+    preference: PreferenceLevels.better
+  },
+  {
+    name: 'Webpack',
+    imageUrl: '/assets/img/skills/webpack.png',
+    experience: ExperienceLevels.better,
+    preference: PreferenceLevels.average
   },
   {
     name: 'Jekyll',
@@ -178,9 +196,51 @@ export const SKILL_ITEMS: SkillItemModel[] = [
     preference: PreferenceLevels.better
   },
   {
+    name: 'Protractor',
+    imageUrl: '/assets/img/skills/protractor.png',
+    experience: ExperienceLevels.average,
+    preference: PreferenceLevels.average
+  },
+  {
+    name: 'Pug/Jade',
+    imageUrl: '/assets/img/skills/pug.png',
+    experience: ExperienceLevels.average,
+    preference: PreferenceLevels.average
+  },
+  {
+    name: 'Gulp',
+    imageUrl: '/assets/img/skills/gulp.png',
+    experience: ExperienceLevels.average,
+    preference: PreferenceLevels.average
+  },
+  {
     name: 'Nativescript',
     imageUrl: '/assets/img/skills/nativescript.png',
     experience: ExperienceLevels.average,
-    preference: PreferenceLevels.good
+    preference: PreferenceLevels.average
+  },
+  {
+    name: 'Scully',
+    imageUrl: '/assets/img/skills/scully.png',
+    experience: ExperienceLevels.average,
+    preference: PreferenceLevels.average
+  },
+  {
+    name: 'Ionic',
+    imageUrl: '/assets/img/skills/ionic.png',
+    experience: ExperienceLevels.average,
+    preference: PreferenceLevels.average
+  },
+  {
+    name: 'Socket.IO',
+    imageUrl: '/assets/img/skills/socket-io.svg',
+    experience: ExperienceLevels.average,
+    preference: PreferenceLevels.average
+  },
+  {
+    name: 'Nuxt.JS',
+    imageUrl: '/assets/img/skills/nuxt.svg',
+    experience: ExperienceLevels.average,
+    preference: PreferenceLevels.average
   },
 ];
