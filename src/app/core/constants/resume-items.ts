@@ -3,12 +3,40 @@ import { ResumeItemModel } from '../interfaces/resume-item-model';
 
 export const RESUME_ITEMS: ResumeItemModel[] = [
   {
-    businessName: 'Homeward',
-    position: 'Senior Software Engineer',
-    years: 'May 2022 - Present',
+    businessName: 'Liquibase',
+    position: 'Sr. Software Engineer (Team Lead), New Technologies',
+    years: 'Nov 2023 - Present',
     description: {
       items: [
-        'Regularly mentored more junior engineers by sharing domain-specific and general software design best practices in a weekly “brown bag” session',
+        'Lead a cross-functional team building AI-powered features for Liquibase\'s product suite, including LLM-driven schema analysis and natural language database operations',
+        'Architected and delivered air-gapped deployment solutions for enterprise customers operating in secure, disconnected environments',
+        'Drove adoption of modern development practices including CI/CD automation, containerized deployments, and infrastructure-as-code',
+        'Mentored engineers across multiple teams, establishing technical standards and conducting architecture reviews',
+        'Collaborated directly with Product and Design leadership to shape the roadmap for Liquibase\'s next-generation tooling',
+      ]
+    }
+  },
+  {
+    businessName: 'Trupropel',
+    position: 'Sr. Software Engineer, Full Stack',
+    years: 'Nov 2022 - Nov 2023',
+    description: {
+      items: [
+        'Served as Scrum Master and technical lead for a consultancy team of 15 engineers delivering enterprise software solutions',
+        'Designed and implemented full-stack features using React, Next.js, NestJS, and PostgreSQL',
+        'Established coding standards, review processes, and CI/CD pipelines for a greenfield product platform',
+        'Led sprint planning, retrospectives, and cross-team coordination to consistently deliver on client commitments',
+        'Implemented GraphQL APIs and real-time data pipelines to support complex business workflows',
+      ]
+    }
+  },
+  {
+    businessName: 'Homeward',
+    position: 'Sr. Software Engineer, Full Stack',
+    years: 'May 2022 - Nov 2022',
+    description: {
+      items: [
+        'Regularly mentored more junior engineers by sharing domain-specific and general software design best practices in a weekly "brown bag" session',
         'Owned and drove Feature Development Lifecycle from loose requirements to completed feature by: forming cross-functional teams, designing high level software systems, establishing consensus on cross-component interfaces, removing blockers, and testing',
         'Improved Developer Experience by creating code generation tooling to align disparate coding standards across a large-scale, 3 year old React codebase',
         'Improved the new engineer onboarding process by refactoring existing code to more closely align with tried-and-true Software Design Patterns, removing layers of indirection, and following current React best practices',
@@ -41,113 +69,38 @@ export const RESUME_ITEMS: ResumeItemModel[] = [
         'Project Lead and key contributor for Liquibase Hub, a web-based platform that served as the intersection between our suite of On-Prem and Open Source software',
         'Key contributor to new architectural platform instrumental in our rebranding as Liquibase',
         'Lead many Hackathon teams to great successes including an NPM wrapper around our core Open Source project, increasing our monthly active user base by >30,000',
-        'Aligned the “look-and-feel” of our web applications through a prescriptive design system that improved Developer Velocity and Customer Experience',
+        'Aligned the "look-and-feel" of our web applications through a prescriptive design system that improved Developer Velocity and Customer Experience',
         'Refactored established software product built with Angular to see an 81% improvement in First Contentful Paint',
         'Authored a number of libraries (some of which were open sourced) to augment @angular/material component behaviors',
-        'Authored several blog posts detailing best practices for using Liquibase in a Node context',
         'Completed leadership course offered by MIT Sloan',
-        'Maintained all web properties, provided consultation to internal teams, assisted in prototyping greenfield projects',
       ]
     }
   },
   {
     businessName: 'The Appraisal Lane',
     position: 'Front End Developer',
-    years: 'September 2017 - June 2019',
+    years: 'May 2017 - June 2019',
     description: {
       items: [
-        'Developed interactive “Stepper” and Chat feature for our Retail acquisition platform that served as the Customer’s portal into our Native and Web application system',
-        'Maintained and eventually migrated legacy AngularJS Web Application',
+        'Core contributor for Retail and Acquisition WebApp platforms built with Angular and AngularJS',
+        'Developed interactive "Stepper" and Chat feature for our Retail acquisition platform that served as the Customer\'s portal into our Native and Web application system',
         'Developed Backend services for delivering client-agnostic web content (Android, iOS and Web)',
-        'Developed Landing Pages and HTML email templates for annual industry events',
-        'Core contributor for Retail and Acquisition WebApp platforms',
-        'Core contributor for web based disposition platform',
-        'Authored BE service for delivering fully responsive client-agnostic web content',
-        'Refactored Retail web app layout for responsive design',
-        'Authored photo upload service for retail web app',
-        'Implemented live chat service in retail web app',
-        'Implemented live progress updates in retail platform'
-      ]
-    }
-  },
-  {
-    businessName: 'The Appraisal Lane',
-    position: 'Support/QA Developer',
-    years: 'May 2017 - September 2017',
-    description: {
-      items: [
-        'Developed automated E2E test suites for new retail product',
-        'Developed and Deployed an E2E test result notification Hipchat (and later) Slack bot',
-        'Developed and Deployed a browser extension that augmented our internal appraisal web app',
-        'Created landing pages for industry events',
-        'Updated and created new email templates for our core product',
-        'Automated our customer onboarding process',
-        'Developed CLI tool for automating End of Sprint metrics and demos',
-        'Bootstrapped the Support wing of The Appraisal Lane',
+        'Maintained and eventually migrated legacy AngularJS Web Application to modern Angular',
+        'Developed automated E2E test suites and a Slack-integrated test result notification bot',
+        'Bootstrapped the Support wing and automated the customer onboarding process',
       ]
     }
   },
   {
     businessName: 'Mood Media',
-    position: 'AR Specialist',
-    years: 'September 2016 - May 2017',
+    position: 'AR Specialist / Project Coordinator',
+    years: 'Feb 2014 - May 2017',
     description: {
       items: [
-        'Developed Excel VBA macro for auditing monthly billing invoices',
-        'Worked with Business Development department leads to automate our most common billing scenarios',
-        'Developed VBA macros for building customer facing invoice documents',
-        'Trained new hires'
-      ]
-    }
-  },
-  {
-    businessName: 'Mood Media',
-    position: 'Project Coordinator',
-    years: 'March 2015 - September 2016',
-    description: {
-      items: [
-        'Consistently averaged a ‘post-ink’ margin increase of 30%',
-        'Automated the account onboarding process for my account portfolio',
-        'Continued maintenance of the sales incentive web tool',
-        'Rollout of sales incentive web tool to Project Management department'
-      ]
-    }
-  },
-  {
-    businessName: 'Mood Media',
-    position: 'Service Dispatch Coordinator',
-    years: 'May 2014 - March 2015',
-    description: {
-      simple: 'Developed a web based tool that:',
-      items: [
-        'Generated 1.1 million in revenue for 2016',
-        'Streamlined a sales incentive process by removing unnecessary steps pain points',
-        'Removed the need for all paperwork and moved form entry online (yay trees!)',
-        'Delivered status update emails on each phase of the program cycle',
-        'Delivered a periodic emails reports with regional granularity'
-      ]
-    }
-  },
-  {
-    businessName: 'Mood Media',
-    position: 'Client Satisfaction Professional',
-    years: 'February 2014 - April 2014',
-    description: {
-      items: [
-        'One of three team leads for a training class of roughly 20',
-        'Developed a handful of web-based tools for sharing techniques/tips/tricks',
-        'Quickly promoted to new position based on performance',
-      ]
-    }
-  },
-  {
-    businessName: 'Open Labs',
-    position: 'RMA Technician',
-    years: '2012 - 2014',
-    description: {
-      items: [
-        'Used downtime and after hours to help QA their Interactive Music Creation Software, Stagelight (now Roland Zenbeats)',
-        'Authored deployment scripts to help quickly churn out new hardware builds',
+        'Developed a web-based sales incentive tool that generated $1.1 million in revenue for 2016, streamlining processes and eliminating paperwork',
+        'Built Excel VBA macros for auditing monthly billing invoices and automating common billing scenarios',
+        'Consistently averaged a post-ink margin increase of 30% through diligent project coordination',
+        'One of three team leads for a training class of roughly 20; quickly promoted based on performance',
       ]
     }
   },

@@ -2,10 +2,17 @@ import { ProjectItemModel } from '../interfaces/project-item-model';
 
 export const PROJECT_ITEMS: ProjectItemModel[] = [
   {
+    title: 'Node-Liquibase',
+    description: 'An NPM wrapper around Liquibase\'s core Open Source project, now serving 47,000+ downloads per month. Enables Node.js developers to integrate database change management into their workflows.',
+    sourceUrl: 'https://github.com/liquibase/node-liquibase',
+    demoUrl: 'https://www.npmjs.com/package/liquibase',
+    imageUrl: '/assets/img/projects/material-dayjs-adapter.png',
+  },
+  {
     title: 'Material-DayJs-Adapter',
-    description: 'A DayJs based datepicker adapter for the @angular/material library that significantly reduces dependency size.',
+    description: 'A DayJs based datepicker adapter for the @angular/material library with 39,000+ annual downloads. Significantly reduces dependency size compared to Moment.js.',
     sourceUrl: 'https://github.com/tabuckner/material-dayjs-adapter',
-    demoUrl: 'https://angular.io/resources?category=development#:~:text=material%2Ddayjs%2Dadapter',
+    demoUrl: 'https://www.npmjs.com/package/@tabuckner/material-dayjs-adapter',
     imageUrl: '/assets/img/projects/material-dayjs-adapter.png',
   },
   {
@@ -62,26 +69,6 @@ export const PROJECT_ITEMS: ProjectItemModel[] = [
     sourceUrl: 'https://github.com/tabuckner/spongebob-case',
     demoUrl: 'https://stackblitz.com/edit/angular-wpb9a4?file=src%2Fapp%2Fapp.component.ts',
     imageUrl: 'https://imgflip.com/s/meme/Mocking-Spongebob.jpg'
-  },
-  {
-    title: 'Gulp Materialize',
-    description: 'Boilerplate repo for quick Gulp projects using Materialize.',
-    sourceUrl: 'https://github.com/tabuckner/gulp-materialize',
-    imageUrl: '/assets/img/projects/gulp-materialize.png'
-  },
-  {
-    title: 'Bible Thumper Twitter Bot',
-    description: 'A twitter-bot that makes inspirational scripture based posts, and responds to chat messages.',
-    sourceUrl: 'https://github.com/tabuckner/bible-thumper-twitter-bot',
-    demoUrl: 'https://twitter.com/hillbillynums',
-    imageUrl: '/assets/img/projects/bible-thumper-twitter-bot.png'
-  },
-  {
-    title: 'Time Tracker',
-    description: 'A tiny anonymously authenticated web app for tracking time punches.',
-    sourceUrl: 'https://github.com/tabuckner/time-tracker',
-    demoUrl: 'https://tabuckner.github.io/time-tracker/',
-    imageUrl: '/assets/img/projects/time-tracker.png'
   },
   {
     title: 'Jenkins Sucks',
